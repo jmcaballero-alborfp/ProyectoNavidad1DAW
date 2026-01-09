@@ -1,12 +1,18 @@
-#objeto1 {}
+#objeto1 {
+    
+}
 
-header {}
+header {
+
+}
 
 section {
     padding: 5%;
 }
 
-footer {}
+footer {
+
+}
 
 .enlaceMenu {
     color: red;
