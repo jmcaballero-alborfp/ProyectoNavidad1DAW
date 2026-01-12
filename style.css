@@ -57,4 +57,5 @@ footer {
 main {
     /* background-image: url(./assets/fonts/Fondo.jpg); */
     height: 890px;
+    display: flex;
 }
