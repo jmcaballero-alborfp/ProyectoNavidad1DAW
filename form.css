@@ -1,17 +1,3 @@
-#objeto1 {
-    
-}
-
-
-
-section {
-    padding: 5%;
-}
-
-h3{
-    color: yellow;
-}
-
 /* Cabecera */
 header {
     background-color: rgb(77, 167, 55);
@@ -22,19 +8,28 @@ header {
     text-align: center;
     align-content: center;
     border: red 2px;
+    font-size: 70px;
+    text-shadow: 2px 2px red;
+}
+
+body{
+    margin: 0px;
+}
+
+/* Cuerpo principal */
+main {
+    /* background-image: url(./assets/fonts/Fondo.jpg); */
+    height: 890px;
 }
 
 /* Barra de navegación */
-nav{
+nav {
     border: blue solid 3px;
     background-color: aqua;
     word-spacing: 200px;
     font-size: 30px;
 }
 
-dd{
-    color: black;
-}
 
 /* Pie de pagina */
 footer {
@@ -49,12 +44,10 @@ footer {
     /*font-weight: bold;*/
 }
 
-.enlaceMenu {
-    color: red;
+form{
+
 }
 
-/* Cuerpo principal */
-main {
-    /* background-image: url(./assets/fonts/Fondo.jpg); */
-    height: 890px;
+.enlaceMenu {
+    color: red;
 }
