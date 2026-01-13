@@ -12,6 +12,10 @@ header {
     text-shadow: 2px 2px red;
 }
 
+body {
+    margin: 0px;
+}
+
 /* Barra de navegación */
 nav{
     border: blue solid 3px;
@@ -21,16 +25,26 @@ nav{
     font-size: 30px;
 }
 
-body {
-
-}
-
 /* Cuerpo principal */
 main {
     background-image: url(./assets/fonts/Fondo1.jpg);
     background-size: 100%;
     background-repeat: no-repeat;
     height: 890px;
+    width: 100%;
+}
+
+/* Pie de pagina */
+footer {
+    width: 100%;
+    background-color: red;
+    margin: 0px;
+    height: 100px;
+    padding: 0px;
+    align-content: center;
+    text-align: center;
+    border: solid 2px green;
+    /*font-weight: bold;*/
 }
 
 #ofertas{
@@ -48,19 +62,6 @@ section {
 
 h3 {
     color: yellow;
-}
-
-/* Pie de pagina */
-footer {
-    width: 100%;
-    background-color: red;
-    margin: 0px;
-    height: 100px;
-    padding: 0px;
-    align-content: center;
-    text-align: center;
-    border: solid 2px green;
-    /*font-weight: bold;*/
 }
 
 .enlaceMenu {

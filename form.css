@@ -16,6 +16,15 @@ body{
     margin: 0px;
 }
 
+/* Barra de navegación */
+nav {
+    border: blue solid 3px;
+    border-radius: 10px;
+    background-color: aqua;
+    word-spacing: 200px;
+    font-size: 30px;
+}
+
 /* Cuerpo principal */
 main {
     background-image: url(./assets/fonts/Fondo1.jpg);
@@ -23,15 +32,6 @@ main {
     background-repeat: no-repeat;
     height: 890px;
 }
-
-/* Barra de navegación */
-nav {
-    border: blue solid 3px;
-    background-color: aqua;
-    word-spacing: 200px;
-    font-size: 30px;
-}
-
 
 /* Pie de pagina */
 footer {
