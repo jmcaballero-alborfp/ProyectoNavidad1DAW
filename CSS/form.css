@@ -27,7 +27,7 @@ nav {
 
 /* Cuerpo principal */
 main {
-    background-image: url(./assets/fonts/Fondo1.jpg);
+    background-image: url(../assets/fonts/Fondo1.jpg);
     background-size: 100%;
     background-repeat: no-repeat;
     height: 890px;
