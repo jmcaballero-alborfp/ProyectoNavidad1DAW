@@ -19,11 +19,19 @@ body {
 
 /* Barra de navegación */
 nav{
-    border: blue solid 3px;
+    border: blue solid 3px; 
     border-radius: 10px;
     background-color: rgb(21, 230, 21);
     word-spacing: 200px;
     font-size: 30px;
+    animation: cambioColor 5s infinite alternate;
+}
+
+@keyframes cambioColor {
+    0% {background-color: red;}
+    50% {background-color: blue;}
+    100% {background-color: yellowgreen;}
+
 }
 
 /* Cuerpo principal */
@@ -54,18 +62,20 @@ footer {
 }
 
 #objeto1 {
-    
+      
 }
 
 section {
-    padding: 5%;
+    
 }
 
-h3 {
-    color: yellow;
-}
 
 .enlaceMenu {
     color: red;
 }
 
+@media (width <= 768px) {
+    main{
+        background-image: url(../assets/fonts/1700x1300.png);
+    }
+}
