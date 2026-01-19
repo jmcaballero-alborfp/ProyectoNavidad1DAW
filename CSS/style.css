@@ -78,6 +78,7 @@ section {
 /* Contenedor general en forma de grid */
 .product-grid {
     display: grid;
+    
     grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
     gap: 20px;
     padding: 20px;
@@ -97,6 +98,10 @@ section {
 .producto:hover {
     transform: translateY(-5px);
     box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+}
+
+.enlaceCompra:hover{
+    box-shadow: 0 8px 8px rgb(47, 97, 94);
 }
 
 /* imagen del producto */
