@@ -19,8 +19,7 @@ body {
 
 /* Barra de navegación */
 nav{
-    border: blue solid 3px; 
-    border-radius: 10px;
+    border: blue solid 3px;
     background-color: rgb(21, 230, 21);
     word-spacing: 200px;
     font-size: 30px;
@@ -74,6 +73,65 @@ section {
     color: red;
 }
 
+/* Estilos caja de producto */
+
+/* Contenedor general en forma de grid */
+.product-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
+    gap: 20px;
+    padding: 20px;
+}
+
+/* caja individual del producto */
+.producto {
+    background: #fff;
+    border-radius: 10px;
+    padding: 15px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+    text-align: center;
+}
+
+/* efecto hover */
+.producto:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+}
+
+/* imagen del producto */
+.producto img {
+    width: 100%;
+    height: 180px;
+    object-fit: cover;
+    border-radius: 8px;
+}
+
+/* titulo del producto */
+.product h3 {
+    font-size: 1.1rem;
+    margin: 10px 0;
+    color: #333;
+}
+
+/* precio */
+.producto .precio {
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: #e63946;
+    margin-bottom: 10px;
+}
+
+/* emulacion de boton con enlace*/
+.enlaceCompra{
+    background-color: lightseagreen;
+    padding: 12px;
+    border-radius: 7px;
+    text-decoration: none;
+    color: white;
+}
+
+/* Pruebas de responsivo para ciertos tamaños de pantallas */
 @media (width <= 768px) {
     main{
         background-image: url(../assets/fonts/1700x1300.png);
