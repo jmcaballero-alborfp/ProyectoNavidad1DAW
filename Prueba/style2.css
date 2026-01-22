@@ -1,3 +1,4 @@
+
 * {
     box-sizing: border-box;
     margin: 0;
@@ -11,6 +12,8 @@ body {
     justify-content: center;
     align-items: center;
     background-color: #f2f4f8;
+    background-image: url(./Fondo3.jpg);
+    
 }
 
 .container {
@@ -20,6 +23,7 @@ body {
     box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
     border-radius: 12px;
     overflow: hidden;
+    background-image: url(./Fondo2.jpg);
 }
 
 .form-section {
@@ -29,6 +33,7 @@ body {
     display: flex;
     flex-direction: column;
     justify-content: center;
+    align-items: center;
 }
 
 .form-section h1 {
@@ -47,6 +52,7 @@ body {
     display: flex;
     gap: 15px;
     margin-bottom: 20px;
+    align-items: center;
 }
 
 .icon {
@@ -67,6 +73,7 @@ body {
 .google {
     background-color: #db4437;
     color: white;
+    
 }
 
 .apple {
@@ -128,4 +135,8 @@ form input {
     background-image: url('succulent.jpg');
     background-size: cover;
     background-position: center;
+}
+
+h1 {
+    text-shadow: 2px 2px red;
 }
