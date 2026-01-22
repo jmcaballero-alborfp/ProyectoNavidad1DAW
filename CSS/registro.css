@@ -1,4 +1,4 @@
-/*Aplicacion de estilos y propiedades. No tocar*/
+/* Aplicacion de estilos y propiedades. No tocar */
 * {
     box-sizing: border-box;
     margin: 0;
@@ -12,7 +12,7 @@ body {
     justify-content: center;
     align-items: center;
     background-color: #f2f4f8;
-    background-size: 100vw 100vh; /*etiqueta para estirar la imagen del fondo*/
+    background-size: 100vw 100vh; /* etiqueta para estirar la imagen del fondo */
     background-image: url(../assets/fonts/Fondo3.jpg);
 
 }
@@ -28,7 +28,7 @@ body {
     
 }
 
-/*Simulacion boton volver a inicio*/
+/* Simulacion boton volver a inicio */
 .volverInicio{
     background-color: #5a67d8;
     color: white;
@@ -37,12 +37,12 @@ body {
     text-decoration: none;
 }
 
-/*etiqueta para sombreado en el enlace para volver a inicio*/
+/* etiqueta para sombreado en el enlace para volver a inicio */
 .volverInicio:hover{
     box-shadow: 0 8px 8px rgb(67, 70, 69);
 }
 
-/*Div del registro*/
+/* Div del registro */
 .form-registro {
     flex: 1;
     padding: 40px;
@@ -94,13 +94,13 @@ body {
 
 }
 
-/*Espacio vertical entre celdas de elementos*/
+/* espacio vertical entre celdas de elementos */
 .divider {
     margin: 20px 0;
     text-align: center;
     color: #999;
 }
-/*Tamaño de los elementos dentro del div*/
+/* tamaño de los elementos dentro del div */
 form input {
     width: 100%;
     padding: 12px;
