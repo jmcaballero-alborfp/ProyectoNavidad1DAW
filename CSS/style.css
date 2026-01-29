@@ -132,14 +132,14 @@ tbody tr:nth-child(odd) {
 }
 
 
-/* Sombra un poco excesiva */
+
 table {
     box-shadow: 0px 0px 20px black;
 }
 
-/* Título con estilo “me emocioné con el CSS” */
+
 thead tr:first-child th {
-    background-color: #2c3e50;
+    background-color: rgb(39, 54, 83);
     font-size: 24px;
     letter-spacing: 2px;
     text-transform: uppercase;
@@ -194,7 +194,7 @@ thead tr:first-child th {
 .marca p {
     margin: 2px 0 0;
     font-size: 0.9rem;
-    color: #9ca3af;
+    color: rgb(160, 160, 243);
 }
 
 /* Espaciado de los links */
