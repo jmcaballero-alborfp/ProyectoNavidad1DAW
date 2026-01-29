@@ -17,6 +17,7 @@ body {
     
 }
 
+
 /* Barra de navegación */
 nav{
     background-color: #364c63;
@@ -30,9 +31,9 @@ nav{
 /* Cuerpo principal */
 main {
     background-image: url(../assets/fonts/Fondo1.jpg);
-    background-size: 100vw 100vh; /*etiqueta para estirar la imagen del fondo*/
+    background-size: 100vw 150vh; /*etiqueta para estirar la imagen del fondo*/
     background-repeat: no-repeat;
-    height: 890px;
+    height: 1000px;
     text-align: justify;
 }
 
@@ -104,6 +105,46 @@ main {
     color: white;
 }
 
+table {
+    width: 90%;
+    margin: 5px auto;
+    border-collapse: collapse;
+    background-color: white;
+    border: 3px solid gray;
+
+}
+
+th {
+    background-color: lightseagreen;
+    color: white;
+    padding: 10px;
+    font-size: 18px;
+    border: 2px solid black;
+}
+
+td {
+    padding: 8px;
+    border: 1px solid grey;
+}
+
+tbody tr:nth-child(odd) {
+    background-color: white;
+}
+
+
+/* Sombra un poco excesiva */
+table {
+    box-shadow: 0px 0px 20px black;
+}
+
+/* Título con estilo “me emocioné con el CSS” */
+thead tr:first-child th {
+    background-color: #2c3e50;
+    font-size: 24px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+}
+
 
 /* Pruebas de responsivo para ciertos tamaños de pantallas */
 /*
@@ -115,7 +156,7 @@ main {
 */
 
 /* Sección footer */
-.footer-modern {
+.footerR {
     background: radial-gradient(circle at top left, #1f2933, #020617);
     color: white;
     padding: 18px 0;
@@ -128,7 +169,7 @@ main {
 }
 
 /* Estilo texto */
-.footer-modern-inner {
+.footer-texto {
     max-width: 1100px;
     margin: 0 auto;
     padding: 0 20px;
@@ -166,6 +207,6 @@ main {
 
 /*clase links*/
 .links-footer a {
-    color: #e5e7eb;
+    color: white;
     text-decoration: none;
 }

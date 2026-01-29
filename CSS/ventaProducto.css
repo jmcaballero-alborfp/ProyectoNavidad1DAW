@@ -41,7 +41,7 @@ main {
 }
 
 /* Sección footer */
-.footer-modern {
+.footerR {
     background: radial-gradient(circle at top left, #1f2933, #020617);
     color: white;
     padding: 18px 0;
@@ -54,7 +54,7 @@ main {
 }
 
 /* Estilo texto */
-.footer-modern-inner {
+.footer-texto {
     max-width: 1100px;
     margin: 0 auto;
     padding: 0 20px;
@@ -92,7 +92,7 @@ main {
 
 /*clase links*/
 .links-footer a {
-    color: #e5e7eb;
+    color: white;
     text-decoration: none;
 }
 

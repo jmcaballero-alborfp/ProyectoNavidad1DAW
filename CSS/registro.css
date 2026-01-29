@@ -62,11 +62,11 @@ body {
 .form-registro h2 {
     font-size: 20px;
     margin-bottom: 30px;
-    color: #666;
+    color: grey;
 }
 
 /* Div que engloba los botones de redes sociales */
-.social-icons {
+.iconos-sociales {
     display: flex;
     gap: 15px;
     margin-bottom: 20px;
@@ -98,7 +98,7 @@ body {
 .divider {
     margin: 20px 0;
     text-align: center;
-    color: #999;
+    color: grey;
 }
 /* tamaño de los elementos dentro del div */
 form input {
@@ -131,7 +131,7 @@ form input {
 .logear {
     margin-top: 20px;
     text-align: center;
-    color: #666;
+    color: grey;
 }
 /* estilo del enlace para iniciar sesion */
 .logear a {
