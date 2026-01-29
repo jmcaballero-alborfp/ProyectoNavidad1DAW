@@ -17,13 +17,18 @@ body {
 
 }
 
+.enlaceMenu {
+    color: greenyellow;
+    text-decoration: none;
+}
+
 /* Barra de navegación */
 nav {
-    border: blue solid 3px;
-    border-radius: 10px;
-    background-color: rgb(21, 230, 21);
+    background-color: #364c63;
     word-spacing: 200px;
     font-size: 30px;
+    border: 2px solid #1f5cce;
+    box-shadow: 10px 10px 5px 0px rgba(44, 24, 80, 0.3);
 }
 
 /* Cuerpo principal */
@@ -35,34 +40,60 @@ main {
     text-align: justify;
 }
 
-/* Pie de pagina */
-footer {
+/* Sección footer */
+.footer-modern {
+    background: radial-gradient(circle at top left, #1f2933, #020617);
+    color: white;
+    padding: 18px 0;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
     width: 100%;
-    background-color: red;
     margin: 0px;
     height: 100px;
-    padding: 0px;
     align-content: center;
     text-align: center;
-    border: solid 2px green;
-    /*font-weight: bold;*/
 }
 
-#ofertas {
-    background-color: ;
-
+/* Estilo texto */
+.footer-modern-inner {
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: 0 20px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 20px;
+    justify-content: space-between;
 }
 
-#objeto1 {}
-
-section {
-    padding: 5%;
+.marca {
+    display: flex;
+    align-items: center;
+    gap: 10px;
 }
 
-h3 {
-    color: yellow;
+.marca h3 {
+    margin: 0;
+    font-size: 1.1rem;
 }
 
-.enlaceMenu {
-    color: red;
+.marca p {
+    margin: 2px 0 0;
+    font-size: 0.9rem;
+    color: #9ca3af;
 }
+
+/* Espaciado de los links */
+.links-footer {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    font-size: 0.9rem;
+}
+
+/*clase links*/
+.links-footer a {
+    color: #e5e7eb;
+    text-decoration: none;
+}
+
+

@@ -17,10 +17,10 @@
 
     <!--Menu-->
     <nav>
-        <a href="./Ventas.html" class="enlaceMenu">Ventas</a>
-        <a href="./Galeria.html" class="enlaceMenu">Galeria</a>
+        <a href="./Index.html" class="enlaceMenu">Inicio</a>
+        <a href="./GaleriaOfertas.html" class="enlaceMenu">Ordenadores</a>
         <a href="./Contacto.html" class="enlaceMenu">Contacto</a>
-        <a href="./Formulario.html" class="enlaceMenu">Formulario</a>
+        <a href="./Ventas.html" class="enlaceMenu">Ventas</a>
     </nav>
 
     <!--Cuerpo Formulario-->
@@ -28,33 +28,6 @@
         <form method="post" action="/send/">
             <br> <br>
             <input type="text">
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-            <!--
             <br><strong> Correo Electronico </strong> <br> <input type="text">
             <br><strong> Nombre </strong><br><input name="nickname">
         
@@ -72,17 +45,29 @@
             <label><input type="checkbox" name="opcion2"> No</label>
             <br> <br> <strong>Sugerencias</strong> <br>
             <textarea id="cuadrotexto" name="text" cols="80" rows="15">Escriba alguna sugerencia...</textarea>
-            <br>Recomendarias nuestra pagina <br>Si
-            <input type="radio">
-            -->
+            <br><br>Recomendarias nuestra pagina <br>Si
+            <input type="radio" name="Recomendacion" checked>No
+            <input type="radio" name="Recomendacion"><br> <br>
+            <input type="submit" name="enviar">
     </main>
 
 
-
-    <footer>
-
-        <p>Pie de pagina</p>
-
+    <footer class="footer-modern">
+        <div class="footer-modern-inner">
+            <div class="marca">
+                <div>
+                    <h3>ComponentiX</h3>
+                    <p>Tu lugar de confianza para adquirir hardware <br> calidad</p>
+                </div>
+            </div>
+            <div class="links-footer"> <a href="#">Ventas</a> <a href="#">Ordenadores</a> <a href="#">Registro</a> <a
+                    href="#">Formulario</a> </div>
+            <div class="fm-social"> <span>Síguenos</span>
+                <div class="fm-social-icons"> <a href="#" aria-label="Instagram">IG</a> <a href="#"
+                        aria-label="Facebook">FB</a> <a href="#" aria-label="X">X</a> <a href="#" aria
+                        label="YouTube">YT</a> </div>
+            </div>
+        </div>
     </footer>
 
 </body>

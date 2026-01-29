@@ -12,8 +12,9 @@ header {
     text-shadow: 2px 2px red;
 }
 
-body{
+body {
     margin: 0px;
+
 }
 
 /* Barra de navegación */
@@ -25,23 +26,95 @@ nav {
     box-shadow: 10px 10px 5px 0px rgba(44, 24, 80, 0.3);
 }
 
+
 /* Cuerpo principal */
 main {
     background-image: url(../assets/fonts/Fondo1.jpg);
-    background-size: 100%;
+    background-size: 100vw 100vh;
+    /*etiqueta para estirar la imagen del fondo*/
     background-repeat: no-repeat;
     height: 890px;
+    text-align: justify;
 }
 
-
-form{
-
-}
 
 .enlaceMenu {
     color: greenyellow;
     text-decoration: none;
 }
+
+/* Estilos caja de producto */
+
+/* Contenedor general en forma de grid */
+.product-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
+    gap: 20%; /* Anchura de la "caja" */
+    padding: 20px;
+}
+
+/* caja individual del producto */
+.producto {
+    background: #fff;
+    border-radius: 10px;
+    height: 520px; /* Altura de la caja del "Producto" */
+    padding: 15px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+    text-align: center;
+}
+
+/* efecto hover */
+.producto:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+}
+
+.enlaceCompra:hover {
+    box-shadow: 0 8px 8px rgb(47, 97, 94);
+}
+
+/* imagen del producto */
+.producto img {
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+    border-radius: 8px;
+}
+
+/* titulo del producto */
+.product h3 {
+    font-size: 1.1rem;
+    margin: 10px 0;
+    color: #333;
+}
+
+/* precio */
+.producto .precio {
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: #e63946;
+    margin-bottom: 10px;
+}
+
+/* emulacion de boton con enlace*/
+.enlaceCompra {
+    background-color: lightseagreen;
+    padding: 12px;
+    border-radius: 7px;
+    text-decoration: none;
+    color: white;
+}
+
+
+/* Pruebas de responsivo para ciertos tamaños de pantallas */
+/*
+@media (width <= 768px) {
+    main{
+        background-image: url(../assets/fonts/1700x1300.png);
+    }
+}
+*/
 
 /* Sección footer */
 .footer-modern {
